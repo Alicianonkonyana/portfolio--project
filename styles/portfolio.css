@@ -86,3 +86,21 @@ h4 {
     line-height: 2;
   }
 }
+.about-content h1 {
+  font-size: 64px;
+  font-family: var(--heading-font-family);
+}
+.about-content h2 {
+  font-size: 18px;
+  font-family: var(--paragraph-font-family);
+}
+#about-paragraph {
+  font-size: 18px;
+}
+#view-project {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 18px 30px;
+  font-size: 18px;
+  font-family: var(--paragraph-font-family);
+}
