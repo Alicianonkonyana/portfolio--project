@@ -91,15 +91,15 @@ h4 {
     line-height: 2;
   }
 }
-.about-content h1 {
+.page-content-description h1 {
   font-size: 64px;
   font-family: var(--heading-font-family);
 }
-.about-content h2 {
+.page-content-description h2 {
   font-size: 18px;
   font-family: var(--paragraph-font-family);
 }
-#about-paragraph {
+#page-paragraph {
   font-size: 18px;
 }
 #view-project {
@@ -109,6 +109,16 @@ h4 {
   font-size: 18px;
   font-family: var(--paragraph-font-family);
 }
-.about-page-content {
+.page-content {
   padding: 120px 20px;
+}
+.page-content-description p {
+  text-align: center;
+  font-size: 14px;
+  font-family: var(--paragraph-font-family);
+}
+.page-content-description h3 {
+  font-size: 24px;
+  font-family: var(--paragraph-font-family);
+  font-weight: bold;
 }
