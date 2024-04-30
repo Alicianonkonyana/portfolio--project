@@ -70,6 +70,11 @@ h4 {
   padding: 120px 60px;
 }
 @media (max-width: 900px) {
+  .about-content {
+    padding: 0;
+    text-align: center;
+  }
+
   h1 {
     font-size: 44px;
     line-height: 1.4;
@@ -103,4 +108,7 @@ h4 {
   padding: 18px 30px;
   font-size: 18px;
   font-family: var(--paragraph-font-family);
+}
+.about-page-content {
+  padding: 120px 20px;
 }
