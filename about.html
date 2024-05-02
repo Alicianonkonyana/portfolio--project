@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="About Alicia Nonkonyana responsive web developer.My contact information and social media links">
     <link rel="stylesheet" href="styles/portfolio.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -22,7 +23,7 @@
       href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Protest+Riot&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <title>Portfolio Project</title>
+    <title>About Alicia Nonkonyana Frontend Developer</title>
     <script
       src="https://kit.fontawesome.com/242dc3cb7c.js"
       crossorigin="anonymous"
@@ -35,6 +36,19 @@
     ></script>
   </head>
   <body>
+    <div class="container">
+    <nav class="d-flex justify-content-between" title="navigation bar">
+  
+        <img src="images/logo.png" class=" d-none d-md-block " alt="logo" id="large-logo">
+        <img src="images/logo-small.jpg" class=" d-block d-md-none" alt="small logo" id="small-logo">
+        <ul>
+          <li> <a href="index.html"  title="Homepage">Home</a></li>
+          <li>  <a href="about.html" class="active" title="about page">about</a></li>
+          <li> <a href="work.html" title="work page">work</a></li>
+          <li><a href="contact.html" title="contact page">contact</a></li>
+        </ul>
+      
+    </nav>
     <div class="page-content">
       <div class="container">
         <div class="page-content-description">
@@ -48,8 +62,8 @@
               everything is well explained, homework and deadlines are good for
               keep focus
               <br />
-              <a href="#" class="btn m-5" id="view-project"
-                >View all projects</a
+              <a href="work.html" class="btn m-5" id="view-project"
+                title="take a look at my projects">View all projects</a
               >
             </div>
             <div class="col-lg-6">
@@ -62,6 +76,35 @@
           </div>
         </div>
       </div>
+      <footer>
+        <div class="contact-box">
+          <div class="contact-info">
+            <h5 class="mb-3 work-inquiry">Work Inquiry</h5>
+            <p class="mb-3 text-muted work-paragraph">
+              Let's work together I will give you best services </p>
+          </div>
+          <div>
+            <a class="btn btn-primary m-5 d-none d-md-flex"
+              id="contact-me-button"
+              href="contact.html"
+              title="Contact Alicia Nonkonyana"
+              >Let's talk here</a>
+          </div>
+        </div>
+        <div class="my-email mb-3">
+          <a href="mailto:allynonkonyana@gmail.com" title="Alicia's email"
+            >allynonkonyana@gmail.com</a>
+        </div>
+        <div class="social-icons">
+          <span ><a
+              href="https/www.github/alicianonkonyana.com"
+              title="Alicia's Github"
+              ><i class="fa fa-github" aria-hidden="true"></i></a></span>
+                <span><a href="https/www.instagram/patricia.com"
+              title="Alicia's Instagram" ><i class="fa fa-instagram" aria-hidden="true"></i></a></span>
+ <span ><a href="https//www.twitter/patricia.com" title="Alicia's Twitter" ><i class="fa fa-twitter" aria-hidden="true"></i></a></span>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
